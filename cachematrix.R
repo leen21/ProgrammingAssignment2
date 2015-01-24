@@ -14,12 +14,12 @@ makeCacheMatrix <- function(x = matrix()) {
   ##Set the Matrix
   Set<- function(NewMatrix){
     
-    Matrix <<- NewMatrix
+    x <<- NewMatrix
     InverseMatrix <<- NULL
   }
   
   ##Get the Matrix
-  Get<- function() Matrix  
+  Get<- function() x  
   
   ##Set the Inverse Matrix
   SetInverse <- function(MatrixInverse){
